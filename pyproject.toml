@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "traffic-flow"
+version = "0.1.0"
+description = ""
+authors = ["oneturkmen <oneturkmen@gmail.com>"]
+readme = "README.md"
+packages = [{include = "traffic_flow"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+polars = "^1.12.0"
+matplotlib = "^3.9.2"
+folium = "^0.18.0"
+numpy = "^2.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
