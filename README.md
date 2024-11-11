@@ -35,7 +35,7 @@ poetry shell
 3. Run `main.py`:
 
 ```bash
-python main.py
+python traffic_flow/main.py
 ```
 
 4. Open `daily_traffic_map_interactive.html` and feel free to play around :)
